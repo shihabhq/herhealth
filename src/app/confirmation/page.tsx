@@ -10,7 +10,9 @@ export default function Confirmation() {
           <div className="text-center max-w-2xl w-full">
             <div className="text-4xl sm:text-6xl mb-4 sm:mb-6">✓</div>
 
-            <h1 className="mb-6 sm:mb-8 text-xl sm:text-4xl">Your Test Booking is Confirmed</h1>
+            <h1 className="mb-6 sm:mb-8 text-xl sm:text-4xl">
+              Your Test Booking is Confirmed
+            </h1>
 
             <div className="bg-primary/5 border-2 border-primary rounded-lg p-4 sm:p-8 mb-8 sm:mb-12">
               <p className="text-sm sm:text-lg text-neutral-900 leading-relaxed font-semibold">
@@ -47,7 +49,7 @@ export default function Confirmation() {
                       Sample Collection
                     </p>
                     <p className="text-xs sm:text-sm text-neutral-600">
-                      Use the Q-Pad kit as instructed during your menstrual
+                      Use the heRpad kit as instructed during your menstrual
                       cycle and keep it ready for pickup.
                     </p>
                   </div>
@@ -121,7 +123,7 @@ export default function Confirmation() {
 
             <p className="text-neutral-600 text-xs sm:text-sm mt-8 sm:mt-12">
               For support, contact us at{" "}
-              <span className="font-semibold">support@herhealth.com</span> 
+              <span className="font-semibold">support@herhealth.com</span>
             </p>
           </div>
         </section>

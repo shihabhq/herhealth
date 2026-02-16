@@ -74,14 +74,16 @@ export default function Page() {
           </div>
         </section>
 
-        {/* The Q-Pad Section */}
+        {/* The heRpad Section */}
         <section className="py-12 sm:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-16 items-center">
               <div>
-                <h2 className="mb-6 sm:mb-8 text-neutral-900 text-xl sm:text-4xl">A pad with a purpose.</h2>
+                <h2 className="mb-6 sm:mb-8 text-neutral-900 text-xl sm:text-4xl">
+                  A pad with a purpose.
+                </h2>
                 <p className="text-sm sm:text-base md:text-lg text-neutral-600 mb-6 sm:mb-8 leading-relaxed">
-                  The Q-Pad is the first and only FDA-cleared diagnostic
+                  The heRpad is the first and only FDA-cleared diagnostic
                   menstrual pad, enabling non-invasive health monitoring by
                   collecting and analyzing biomarkers directly from menstrual
                   blood.
@@ -168,9 +170,11 @@ export default function Page() {
         {/* Partnership CTA Section */}
         <section className="py-12 sm:py-24 bg-primary text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-white mb-4 sm:mb-6 text-xl sm:text-4xl">Transform Your Health Today</h2>
+            <h2 className="text-white mb-4 sm:mb-6 text-xl sm:text-4xl">
+              Transform Your Health Today
+            </h2>
             <p className="text-sm sm:text-base md:text-lg mb-8 sm:mb-12 opacity-95 leading-relaxed max-w-2xl text-white mx-auto">
-              Order your Q-Pad and get comprehensive health insights with a
+              Order your heRpad and get comprehensive health insights with a
               simple, non-invasive test. Join thousands of women taking control
               of their health.
             </p>

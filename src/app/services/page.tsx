@@ -155,7 +155,9 @@ export default function Services() {
         {/* How It Works */}
         <section className="py-10 sm:py-20 px-4 sm:px-6 lg:px-8 bg-neutral-50">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-center mb-8 sm:mb-16 text-xl sm:text-3xl">How It Works</h2>
+            <h2 className="text-center mb-8 sm:mb-16 text-xl sm:text-3xl">
+              How It Works
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 sm:gap-8">
               {[
                 {
@@ -187,7 +189,9 @@ export default function Services() {
                   <h3 className="font-semibold text-neutral-900 mb-2 text-sm sm:text-base">
                     {item.title}
                   </h3>
-                  <p className="text-neutral-600 text-xs sm:text-sm">{item.description}</p>
+                  <p className="text-neutral-600 text-xs sm:text-sm">
+                    {item.description}
+                  </p>
                 </div>
               ))}
             </div>
@@ -197,14 +201,16 @@ export default function Services() {
         {/* Info Section */}
         <section className="py-10 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-center mb-6 sm:mb-12 text-xl sm:text-3xl">About Our Tests</h2>
+            <h2 className="text-center mb-6 sm:mb-12 text-xl sm:text-3xl">
+              About Our Tests
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
               <div className="p-4 sm:p-8 rounded-lg bg-neutral-50">
                 <h3 className="font-semibold text-base sm:text-lg mb-2 sm:mb-3 text-neutral-900">
                   Non-Invasive
                 </h3>
                 <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
-                  All tests use our proprietary Q-Pad technology for
+                  All tests use our proprietary heRpad technology for
                   comfortable, non-invasive sample collection during your
                   menstrual cycle.
                 </p>
