@@ -80,11 +80,6 @@ export default function About() {
                 breakthrough innovation enables women to collect valuable health
                 data passively, in the comfort and privacy of their own homes.
               </p>
-              <p>
-                Today, heRhealth is leading the charge in women&apos;s health
-                diagnostics, supported by leading academic institutions,
-                healthcare systems, and investors who believe in our mission.
-              </p>
             </div>
           </div>
         </section>

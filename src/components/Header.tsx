@@ -1,25 +1,26 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import Image from 'next/image'
-import { usePathname } from 'next/navigation'
-import { useState } from 'react'
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
+  { href: "/why", label: "Why AI" },
   { href: "/founders", label: "Founders" },
 ];
 
 export default function Header() {
-  const pathname = usePathname()
-  const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
 
   const linkClass = (href: string) =>
     pathname === href
-      ? 'text-primary font-semibold border-b-2 border-primary pb-0.5'
-      : 'text-neutral-600 hover:text-primary transition-colors'
+      ? "text-primary font-semibold border-b-2 border-primary pb-0.5"
+      : "text-neutral-600 hover:text-primary transition-colors";
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-neutral-200">
@@ -80,8 +81,8 @@ export default function Header() {
                 href={href}
                 className={`block px-4 py-2.5 text-sm rounded-md ${
                   pathname === href
-                    ? 'text-primary font-semibold bg-primary/10'
-                    : 'text-neutral-600 hover:text-primary hover:bg-neutral-100 transition-colors'
+                    ? "text-primary font-semibold bg-primary/10"
+                    : "text-neutral-600 hover:text-primary hover:bg-neutral-100 transition-colors"
                 }`}
                 onClick={() => setIsOpen(false)}
               >
@@ -92,5 +93,5 @@ export default function Header() {
         )}
       </nav>
     </header>
-  )
+  );
 }
